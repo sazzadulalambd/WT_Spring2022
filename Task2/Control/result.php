@@ -18,13 +18,13 @@ if(isset($_POST["Submit"]))
     }
     
     $l_name = $_POST["l_name"];
-    if(empty($lname))
+    if(empty($l_name))
     {
         echo"Enter a valid last name.<br>";
     }
     else
     {
-        echo"Your last name is ".$lname."<br>";
+        echo"Your last name is ".$l_name."<br>";
     }
 
     $age = $_POST["age"];
