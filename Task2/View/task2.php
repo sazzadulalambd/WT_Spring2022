@@ -61,8 +61,8 @@ include "../Control/result.php";
 </tr>
 
 <tr>
-    <td><input type="submit" value="Submit">
-        <input type="reset" value="Reset">
+    <td><input type="submit" name="Submit">
+        <input type="reset" name="Reset">
     </td>
     
 </tr>
