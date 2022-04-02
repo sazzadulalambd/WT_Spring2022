@@ -70,7 +70,7 @@ if(isset($_POST["search"]))
 
            }
          else {
-        $error = "Username or Password is invalid";
+        $error = "Invalid";
         }
 
     $mydb->closecon($conobj);
